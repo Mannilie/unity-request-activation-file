@@ -13,8 +13,6 @@ FILE_PATH=$FILE_NAME
 
 # Request the manual activation file for activating unity personal
 unity-editor \
-  -batchmode \
-  -nographics \
   -logFile /dev/stdout \
   -quit \
   -createManualActivationFile
